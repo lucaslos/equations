@@ -19,6 +19,11 @@ article {
     width: 100%;
 }
 
+section {
+    display: inline-block;
+    
+}
+
 h1 {
     width: 100%;
     
