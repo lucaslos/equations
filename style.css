@@ -91,7 +91,7 @@ h2 a {
     -webkit-perspective: 1000;
 }
 
-.block .label {
+.front {
     position: absolute; 
     height: 100%;
     width: 100%;
@@ -129,15 +129,13 @@ h2 a {
     user-select: none;
 }
 
-.block .img {
+.back {
     position: absolute;
     z-index: -5;
     
     height: 100%;
     width: 100%;
     
-    font-size: 30px;
-    line-height: 200px;
     
     -webkit-transform: rotateX(-180deg);
     backface-visibility: hidden;
@@ -151,8 +149,41 @@ h2 a {
     cursor: pointer;
 }
 
-.block .img img {
+.back img {
     position: relative;
     display: inline-block;
     max-width: 95%;
+}
+
+.MathJax_SVG_Display {
+    height: 100%;
+    width: 100%;
+    
+    margin: 0 !important;
+}
+
+.MathJax_SVG {
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    height: 100%;
+    width: 100%;
+    
+    text-align: center  !important;
+    line-height: 160px  !important;
+    
+/*    font-size: 166% !important;*/
+}
+
+.MathJax_SVG svg {
+    top: 0;
+    margin: 0 !important;
+    
+    position: relative  !important;
+    display: inline-block  !important;
+    max-width: 95%;
+    max-height: 160px;
+    
+    vertical-align: middle !important;
 }

@@ -1,6 +1,6 @@
 function addEvents() {
-    var labels = document.getElementsByName("label"),
-        imgs = document.getElementsByName("img"),
+    var labels = document.getElementsByName("front"),
+        imgs = document.getElementsByName("back"),
         length = labels.length;
     
     for(i = 0; i<length; i++){
