@@ -151,6 +151,12 @@ h2 a {
     cursor: pointer;
 }
 
+.front img {
+    position: relative;
+    float: right;
+    height: 100%;
+}
+
 .back img {
     top: 0;
     margin: 0 !important;
